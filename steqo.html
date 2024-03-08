@@ -1,0 +1,76 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keep it Safe</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="steqo.css" />
+
+    <!-- Link to external JavaScript file -->
+    <script src="steqo.js" defer></script>
+  </head>
+  <body>
+    <!-- Your existing HTML content here -->
+    <header>
+      <h1>You are welcome to hide your information in Stego page</h1>
+    </header>
+    <div class="container">
+      <div class="section">
+        <div class="steq">
+          <a href="file:///C:/Users/cesar/OneDrive/Desktop/steqo/steqo.html"
+            >Stego</a
+          >
+        </div>
+        <div class="kript">
+          <a href="file:///C:/Users/cesar/OneDrive/Desktop/steqo/kripten.html"
+            >Crypto</a
+          >
+        </div>
+        <div class="hash">
+          <a href="file:///C:/Users/cesar/OneDrive/Desktop/steqo/hash.html"
+            >Hash</a
+          >
+        </div>
+      </div>
+      <div class="txt">
+        <textarea class="text" placeholder="Type here..."></textarea>
+      </div>
+
+      <div class="button">
+        <div class="select">
+          <button class="custom-button1">Select Image</button>
+        </div>
+        <div class="enc">
+          <button class="custom-button2" onclick="openPopup()">Encrypt</button>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="en">
+          <a href="file:///C:/Users/cesar/OneDrive/Desktop/steqo/steqo.html"
+            >Encrypt</a
+          >
+        </div>
+        <div class="dec">
+          <a href="file:///C:/Users/cesar/OneDrive/Desktop/steqo/dec.html"
+            >Decrypt</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup">
+      <input type="text" />
+      <button onclick="closePopup()">Download</button>
+    </div>
+
+    <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+    <footer>
+      <p>&copy; 2023 Created by I-MAC team</p>
+    </footer>
+  </body>
+</html>
